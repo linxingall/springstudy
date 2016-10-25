@@ -11,6 +11,14 @@
         <spring.version>3.2.10.RELEASE</spring.version>
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjtools -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+            <version>1.6.2</version>
+        </dependency>
+
+
         <!-- spring -->
         <dependency>
             <groupId>org.springframework</groupId>
